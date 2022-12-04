@@ -1,0 +1,69 @@
+#login-form {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#clock {
+  text-align: right;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: bold;
+  color: darkblue;
+  padding-right: 50px;
+  float: right;
+  vertical-align: top;
+}
+
+#greeting {
+  text-align: center;
+}
+
+body {
+  padding: 2px;
+  background-color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+  z-index: 2;
+}
+
+img {
+  top: 0;
+  opacity: 0.2;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+button {
+  padding: 0px 5px;
+  margin-left: 7px;
+}
+ul {
+  width: 200px;
+  padding-bottom: 50px;
+  padding-left: 650px;
+}
+
+#todo-form {
+  text-align: center;
+  font-style: bold;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+.city,
+.weather_status,
+.temp {
+  font-style: bold;
+  padding-top: 5px;
+  padding-left: 50px;
+}
+
+li {
+  padding-top: 5px;
+}
